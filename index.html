@@ -1,42 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Restoran Sitesi</title>
+    <title>Module 3 Assignment</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-acilir">
-            <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Food, LLC</a>
-        </div>
-        <div class="collapse navbar-collapse" id="menu-acilir">
-          <ul class="nav navbar-nav visible-xs text-center">
-            <li><a href="#">Chicken</a></li>
-            <li><a href="#">Beef</a></li>
-            <li><a href="#">Sushi</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 
-    <div class="container">
-      <h1 class="text-center">Our Menu</h1>
-      <div class="row">
-        <div class="col-xs-12" style="background-color: #eee; padding: 20px; margin-top: 10px;">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Food, LLC</a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="main-nav">
+        <ul class="nav navbar-nav visible-xs text-center">
+          <li><a href="#chicken">Chicken</a></li>
+          <li><a href="#beef">Beef</a></li>
+          <li><a href="#sushi">Sushi</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="text-center">Our Menu</h1>
+    <div class="row">
+      <div class="col-xs-12">
+        <div id="chicken" style="background-color: #eee; padding: 20px; margin-top: 10px; border: 1px solid #333;">
           <h3 class="text-center">Chicken</h3>
-          <p>Burası çok uzun bir yazı olmalı ki sayfa aşağı kaysın. Lorem ipsum dolor sit amet... (Buraya 20-30 satır rastgele yazı kopyala yapıştır yap kanka, sayfa uzasın).</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet interdum elit. Duis porttitor tristique nisi, ac efficitur nibh. In hac habitasse platea dictumst. Quisque sed diam sed nisl tincidunt varius. Sed sed nisi ac sem elementum dapibus. Nullam non nisi ac sem elementum dapibus. Donec sit amet semper tellus. Curabitur vel egestas nisi. Phasellus vel lorem in purus blandit iaculis. Sed pretium eleifend augue, ut varius ex.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac eleifend nulla. Nam interdum, nisl eu vehicula varius, mi turpis varius tellus, eget accumsan nibh erat sit amet enim. Donec sit amet semper tellus. Curabitur vel egestas nisi. Phasellus vel lorem in purus blandit iaculis. Sed pretium eleifend augue, ut varius ex.</p>
+          <p>Duis sed sapien non libero sodales finibus. Proin et lacus eget nisi tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam at nisi lectus. Nullam non nisi ac sem elementum dapibus. Donec sit amet semper tellus. Curabitur vel egestas nisi. Phasellus vel lorem in purus blandit iaculis. Sed pretium eleifend augue, ut varius ex.</p>
+          <p>Cras vulputate elementum purus, at varius eros. In hac habitasse platea dictumst. Sed in ex sit amet ante euismod tincidunt. Morbi at varius ex, ut varius ex. Sed pretium eleifend augue, ut varius ex. Donec sit amet semper tellus. Curabitur vel egestas nisi. Phasellus vel lorem in purus blandit iaculis. </p>
+          <p>Quisque sed diam sed nisl tincidunt varius. Sed sed nisi ac sem elementum dapibus. Nullam non nisi ac sem elementum dapibus. Donec sit amet semper tellus. Curabitur vel egestas nisi. Phasellus vel lorem in purus blandit iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+          <p>Final section to ensure scrolling: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </div>
       </div>
     </div>
+  </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
