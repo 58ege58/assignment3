@@ -44,8 +44,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
 showLoading("#main-content");
 $ajaxUtils.sendGetRequest(
   allCategoriesUrl,
-  buildAndShowHomeHTML, // STEP 4: Call buildAndShowHomeHTML
-  true); 
+  buildAndShowHomeHTML, 
+  true);
 });
 
 function buildAndShowHomeHTML (categories) {
